@@ -161,7 +161,7 @@ div.wrapper2{
     text-decoration: none;
     border-radius:  20px;
     padding: 10px 20px;
-    box-shadow: 0px 4px 10px 1px #fee4df;
+    box-shadow:  0px 17px 10px -14px var(--bright-red);
 }
 .testimonial-section div.btn a:hover{
     color: #f3613c;
