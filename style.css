@@ -1,0 +1,238 @@
+/* Testimonials */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+div.wrapper2{
+    display: none;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.testimonial-section p{
+    color: #a5a6ab;
+}
+.testimonial-section h4{
+    color: #3e3e5c;
+    font-weight: 600;
+}
+.testimonial-section h3{
+    color: #293355;
+}
+.testimonial-section div.btn a{
+    color: #fff;
+    background: #f3613c;
+    text-decoration: none;
+    border-radius:  20px;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 10px 1px #fee4df;
+}
+.testimonial-section div.btn a:hover{
+    color: #f3613c;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #f3613c;
+}
+.testimonial-section .btn{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.testimonial-section >h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+}
+.testimonial-section .testimonials img{
+    position: absolute;
+    top: -35px;
+    left: 170px;
+    width: 70px;
+}
+.testimonial-section .tes1{
+    background: #fafafa;
+    color: #1e1e26;
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.testimonial-section .tes2{
+    background: #fafafa;
+    color: #1e1e26;
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.testimonial-section .tes3{
+    background: #fafafa;
+    color: #1e1e26;
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+
+/* team-section */
+.team-section{
+    background: url('./assets/bg-tablet-pattern.svg');
+}
+.team-section2{
+    background: #f3613c;
+    opacity: 0.5;
+    padding: 10px 100px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    margin-top: 30px;
+    color: #eceae8;
+}
+.team-section div a{
+    color: #f3613c;
+    background: #fff;
+    text-decoration: none;
+    border-radius:  20px;
+    padding: 10px 20px;
+}
+.team-section div a:hover{
+    color: #fff;
+    background: #f3613c;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+.team-section h3{
+    font-size: 40px;
+    color: #fff;
+}
+.team-section2 div{
+    display: flex;
+    align-items: center;
+}
+
+/* footer section */
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 100px;
+    background: #1e1e26;
+    color: #eceae8;
+}
+.footer .logo{
+    margin-bottom: 70px;
+}
+.footer .updates {
+    margin-bottom: 70px;
+}
+.footer div.icon img{
+    padding-right: 8px;
+}
+.footer input{
+    border-radius: 20px;
+    padding: 10px;
+    border: inherit;
+}
+.footer span a{
+    color: #fff;
+    background: #f3613c;
+    text-decoration: none;
+    border-radius:  20px;
+    padding: 10px 20px;
+}
+.footer span a:hover{
+    color: #f3613c;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #f3613c;
+}
+.footer .copyright{
+    text-align: right;
+    font-size: 14px;
+}
+.footer ul{
+    list-style-type: none;
+    margin-top: 0px;
+}
+.footer li a{
+    line-height: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+.footer li a:hover{
+    color: #f3613c;
+}
+.footer div{
+    padding-top: 0px;
+}
+
+
+/* mobile responsiveness */
+@media (max-width: 1024px) {
+    div.wrapper{
+        display: none;
+    }
+    div.wrapper2{
+        display: inline;
+    }
+
+/* Testimonial section */
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.testimonial-section .testimonials img {
+    position: absolute;
+    top: -35px;
+    left: 145px;
+    width: 70px;
+}
+
+    /* team section */
+
+.team-section2{
+    background: #f3613c;
+    opacity: 0.5;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    margin-top: 30px;
+    color: #eceae8;
+}
+.team-section h3{
+    font-size: 20px;
+    color: #fff;
+}
+    /* footer */
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px 10px;
+        text-align: center;
+        background: #1e1e26;
+        color: #eceae8;
+    }
+    .footer .logo{
+        margin-bottom: 30px;
+    }
+    .footer .copyright{
+        text-align: center;
+        font-size: 14px;
+    }
+}
